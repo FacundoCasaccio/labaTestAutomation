@@ -1,0 +1,221 @@
+[2022-06-26 08:03:03] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-26 08:03:03] [1] [INFO] TEST [labaautomation - postAlbumTest] STARTED at [17:03:03 2022-06-26]
+[2022-06-26 08:03:04] [1] [INFO] Base properties loaded: api/albums/album.properties
+[2022-06-26 08:03:04] [1] [INFO] Base properties loaded: api/albums/album.properties
+[2022-06-26 08:03:05] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/albums
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+[
+    {
+        "userId": "1",
+        "id": 1,
+        "title": "pvsxtnfgeg"
+    }
+]
+HTTP/1.1 201 Created
+Date: Sun, 26 Jun 2022 20:03:05 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 87
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1656273835
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/albums/101
+X-Content-Type-Options: nosniff
+Etag: W/"57-hR7IxFyTg8cXLc7TNUdNAFyTwBw"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vBG1QM8pWG0%2BTHSwOFYOjxKchQSCDOYFbTn6uFzuEJn2nBXNKCoyEgOehR7K9vbsbBPx1VyJlDCsHVHu%2F1LvYe4uiNMux4ZSvgKprBfGUjFYNgSCQ7KusshKpUpgAGtRenEJqME1pZdkzBMepeZY"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72188b55fbddf7ae-EZE
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "0": {
+        "userId": "1",
+        "id": 1,
+        "title": "pvsxtnfgeg"
+    },
+    "id": 101
+}
+
+[2022-06-26 08:03:07] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/albums
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+[
+    {
+        "userId": "1",
+        "id": 1,
+        "title": "pvsxtnfgeg"
+    }
+]
+HTTP/1.1 201 Created
+Date: Sun, 26 Jun 2022 20:03:07 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 87
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 998
+X-Ratelimit-Reset: 1656273835
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/albums/101
+X-Content-Type-Options: nosniff
+Etag: W/"57-hR7IxFyTg8cXLc7TNUdNAFyTwBw"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lYRBbXXJfEbXlJI2O4GHn2ieoxM1f1KVlJ%2B6l7hsJzbvmghR3%2FojKAFJoT6%2BF4Knq63yfZapGCr6voDLfDf1EYUcJEnsl5iAzndy%2B0oYCKh2zSmrVsJucqRf%2FK9%2BCG18puc7hI9tAV1uN7bFeAMn"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72188b5fcfe6a782-EZE
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "0": {
+        "userId": "1",
+        "id": 1,
+        "title": "pvsxtnfgeg"
+    },
+    "id": 101
+}
+
+[2022-06-26 08:03:08] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/albums
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+[
+    {
+        "userId": "1",
+        "id": 1,
+        "title": "pvsxtnfgeg"
+    }
+]
+HTTP/1.1 201 Created
+Date: Sun, 26 Jun 2022 20:03:08 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 87
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 997
+X-Ratelimit-Reset: 1656273835
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/albums/101
+X-Content-Type-Options: nosniff
+Etag: W/"57-hR7IxFyTg8cXLc7TNUdNAFyTwBw"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jehH4xoMIezFieX9TrATasvr5zog8rp18YUsA%2Bs3pOeeWSGKotQwWv2JwV4ivHO6nvqy9D2rOPkAR1wYtU2gXkjCBFP9SgDCBfzs4fggxzRDBJa9SzDgqyfxt3Pipwpx4eOtDa8nwL1sKUQhNYil"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72188b68880fa780-EZE
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "0": {
+        "userId": "1",
+        "id": 1,
+        "title": "pvsxtnfgeg"
+    },
+    "id": 101
+}
+
+[2022-06-26 08:03:09] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/albums
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+[
+    {
+        "userId": "1",
+        "id": 1,
+        "title": "pvsxtnfgeg"
+    }
+]
+HTTP/1.1 201 Created
+Date: Sun, 26 Jun 2022 20:03:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 87
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 996
+X-Ratelimit-Reset: 1656273835
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/albums/101
+X-Content-Type-Options: nosniff
+Etag: W/"57-hR7IxFyTg8cXLc7TNUdNAFyTwBw"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2B3kPDWRIF208eKWPzf%2B4xlT0BgEnS8k5hXTXx57fkLZeECygE46D5iKrhh3k%2Fp6%2F0AkoBBW0Lly45cRb%2F5CG4TYHdUkC7UYmGBRbXHYD0ATa9RelFZiD4dQwydty0Lh8PZseXFbF%2F4VELGhN9FzY"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72188b717e36f7a2-EZE
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "0": {
+        "userId": "1",
+        "id": 1,
+        "title": "pvsxtnfgeg"
+    },
+    "id": 101
+}
+
+[2022-06-26 08:03:09] [1] [INFO] TEST [labaautomation - postAlbumTest] PASSED at [17:03:09 2022-06-26]
