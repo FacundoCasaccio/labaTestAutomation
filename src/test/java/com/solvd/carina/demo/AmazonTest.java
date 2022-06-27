@@ -26,12 +26,8 @@ public class AmazonTest implements IAbstractTest {
 
         AmazonCreateAccountPage createAccountPage = homePage.clickStartHereLink();
         Assert.assertTrue(createAccountPage.isCreateAccountTitlePresent());
-        createAccountPage.typeCustomerName();
-        createAccountPage.typeEmailRandom();
-        createAccountPage.typePassword();
-        createAccountPage.typeReEnterPassword();
 
-        AmazonPuzzlePage puzzlePage = createAccountPage.clickContinueButton();
+        AmazonPuzzlePage puzzlePage = createAccountPage.createAccountWithUnregisteredEmail();
         Assert.assertTrue(puzzlePage.puzzlePageInstructionsAreShowed());
     }
 
@@ -44,12 +40,8 @@ public class AmazonTest implements IAbstractTest {
 
         AmazonCreateAccountPage createAccountPage = homePage.clickStartHereLink();
         Assert.assertTrue(createAccountPage.isCreateAccountTitlePresent());
-        createAccountPage.typeCustomerName();
-        createAccountPage.typeEmail();
-        createAccountPage.typePassword();
-        createAccountPage.typeReEnterPassword();
 
-        AmazonEmailAlreadyInUsePage emailAlreadyInUsePage = createAccountPage.clickVerifyEmailButton();
+        AmazonEmailAlreadyInUsePage emailAlreadyInUsePage = createAccountPage.createAccountWithRegisteredEmail();
         Assert.assertTrue(emailAlreadyInUsePage.isEmailAlreadyInUseAlertPresent());
     }
 
