@@ -5,7 +5,7 @@ import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-public class AmazonSignInPage extends AbstractPage {
+public class AmazonSignInPage extends AmazonAbstractPage {
 
     @FindBy(xpath = "//h1[contains(text(),'Sign-In')]")
     private ExtendedWebElement signInTitle;
