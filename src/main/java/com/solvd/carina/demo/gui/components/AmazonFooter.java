@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class AmazonFooter extends AbstractUIObject {
 
-    @FindBy(xpath = "//a[contains(text(),'Conditions of Use')]")
+    @FindBy(xpath = ".//a[contains(text(),'Conditions of Use')]")
     private ExtendedWebElement conditionsOfUseLink;
 
 

@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class AmazonNavBar extends AbstractUIObject {
 
-    @FindBy(xpath = "//a[contains(text(),\"Today's Deals\")]")
+    @FindBy(xpath = ".//a[contains(text(),\"Today's Deals\")]")
     private ExtendedWebElement todaysDealsItem;
 
     @FindBy(id = "nav-cart")
