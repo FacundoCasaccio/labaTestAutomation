@@ -20,7 +20,7 @@ public class AmazonHomePage extends AmazonAbstractPage {
 
     public AmazonHomePage(WebDriver driver) {
         super(driver);
-        setPageAbsoluteURL(R.CONFIG.get(Configuration.Parameter.URL.getKey()));
+        setPageURL("");
     }
 
     public AmazonTodaysDealsPage navigateToTodaysDealsPage() {
