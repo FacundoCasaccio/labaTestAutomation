@@ -64,4 +64,20 @@ public class AmazonCreateAccountPage extends AmazonAbstractPage {
         continueSubmitButton.click();
         return new AmazonEmailAlreadyInUsePage(driver);
     }
+
+    public AmazonPuzzlePage createAccountWithUnregisteredEmail() {
+        typeCustomerName();
+        typeEmailRandom();
+        typePassword();
+        typeReEnterPassword();
+        return clickContinueButton();
+    }
+
+    public AmazonEmailAlreadyInUsePage createAccountWithRegisteredEmail() {
+        typeCustomerName();
+        typeEmail();
+        typePassword();
+        typeReEnterPassword();
+        return clickVerifyEmailButton();
+    }
 }
