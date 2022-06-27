@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class AmazonCartPage extends AmazonAbstractPage {
 
-    @FindBy(id = "a-autoid-0-announce")
+    @FindBy(xpath = "//span[contains(text(),'Sign in to your account')]")
     private ExtendedWebElement signInToYourAccountButton;
 
     public AmazonCartPage(WebDriver driver) {
