@@ -1,7 +1,7 @@
 package com.solvd.carina.demo;
 
 import com.qaprosoft.carina.core.foundation.IAbstractTest;
-import com.solvd.carina.demo.gui.pages.*;
+import com.solvd.carina.demo.gui.pages.amazon.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -55,7 +55,7 @@ public class AmazonTest implements IAbstractTest {
         Assert.assertTrue(todaysDealsPage.isPageTitleCorrect());
 
         AmazonProductPostPage productPostPage = todaysDealsPage.navigateToProductPage(0);
-        Assert.assertTrue(productPostPage.isProductTitlePresent());
+        Assert.assertTrue(productPostPage.isProductTitlePresent(), "Product post page didn't open correctly");
 
         AmazonProductReviewsPage productReviewsPage = productPostPage.clickSeeAllReviewsLink();
         Assert.assertTrue(productReviewsPage.isCustomerReviewsTitlePresent());

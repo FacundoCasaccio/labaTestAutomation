@@ -1,8 +1,0 @@
-[2022-06-26 07:59:30] [1] [WARN] Reporting disabled: using no op test run registrar
-[2022-06-26 07:59:30] [1] [INFO] TEST [labaautomation - testConditionsOfUseLink] STARTED at [16:59:30 2022-06-26]
-[2022-06-26 07:59:30] [1] [INFO] Starting driver session...
-[2022-06-26 07:59:32] [1] [INFO] Driver session started.
-[2022-06-26 07:59:32] [1] [INFO] INFO: opening url 'https://www.amazon.com/'
-[2022-06-26 07:59:34] [1] [INFO] INFO: url 'https://www.amazon.com/' is opened.
-[2022-06-26 07:59:37] [1] [INFO] PASS: element 'conditionsOfUseLink' is clicked.
-[2022-06-26 07:59:38] [1] [INFO] TEST [labaautomation - testConditionsOfUseLink] PASSED at [16:59:38 2022-06-26]

@@ -1,7 +1,3 @@
-[
-  {
-    <#if userId??>"userId": "${userId}",</#if>
-    "id": 1,
-    <#if userId??>"title": "${title}",</#if>
-  }
-]
+{
+  "title": "TEST"
+}
